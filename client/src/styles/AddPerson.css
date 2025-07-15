@@ -1,0 +1,52 @@
+/* Pusatkan konten di tengah layar */
+.add-person-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9eef4;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Kotak Form (putih, shadow) */
+.add-person-form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul form */
+.app-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Input style */
+.form-input {
+  height: 45px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Tombol submit */
+.form-submit {
+  background-color: #ec7777;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 12px 0;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #ef5858;
+}
